@@ -23,7 +23,7 @@ ul li a:first-child {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #f8f8f8;
   padding: 6px 20px;
   margin: 0 5px;
   font-weight: bold;
@@ -33,6 +33,17 @@ a:hover {
 }
 a#cart {
   padding: 2px 5px;
+}
+
+h1 {
+  font-size: 3.3rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Domine", serif;
+  font-weight: 700;
 }
 
 header {
@@ -109,13 +120,77 @@ nav ul {
 }
 
 .btn {
-  padding: 3px 9px;
+  display: inline-block;
+  padding: 10px 32px;
+  background-color: #ab2623;
+  color: #fff;
+  border: none;
+  width: fit-content;
+}
+.btn:hover {
+  background-color: #282523;
+  color: #fff;
 }
 .btn-clear {
+  padding: 3px 9px;
   background: #282523;
   color: #999;
   border: #999 solid 1px;
   font-weight: normal;
+}
+.btn-clear:hover {
+  color: #ab2623;
+}
+
+.showcase {
+  color: #fff;
+  background: url("img/hero1.jpg") no-repeat center center/cover;
+  height: 525px;
+}
+.showcase .container {
+  height: 100%;
+}
+.showcase .container .content {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+}
+.showcase .container .content p {
+  margin: 15px 0;
+}
+
+.new-releases {
+  background-color: #eae5de;
+  color: #333;
+  padding: 6rem;
+}
+.new-releases .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  font-weight: bold;
+  text-align: center;
+}
+.new-releases .top p {
+  color: #726a5b;
+  padding: 15px 0;
+  width: 475px;
+  align-self: center;
+  line-height: 1.5;
+}
+.new-releases .container {
+  display: flex;
+  justify-content: center;
+}
+
+#border-bottom {
+  width: 75px;
+  border-bottom: #ab2623 solid 6px;
+  align-self: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
