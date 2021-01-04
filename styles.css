@@ -5,30 +5,40 @@
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
 }
 
-header {
-  background-color: #282523;
-  color: #fff;
-  height: 110px;
-}
-
 ul {
   list-style: none;
 }
-ul .fas {
-  color: #ab2623;
-}
 ul li a:first-child {
   padding-left: 0;
+  margin-left: 0;
+}
+
+.fas {
+  color: #ab2623;
+}
+
+.fa-map-marker-alt {
+  padding-right: 10px;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  padding: 10px 20px;
+  padding: 6px 20px;
+  margin: 0 5px;
   font-weight: bold;
 }
 a:hover {
   color: #ab2623;
+}
+a#cart {
+  padding: 2px 5px;
+}
+
+header {
+  position: relative;
+  background-color: #282523;
+  color: #fff;
 }
 
 #header-container {
@@ -39,40 +49,73 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 25% 75%;
+  width: 90%;
+  margin-left: 120px;
+  padding-left: 25px;
 }
 
 nav ul {
   display: flex;
-}
-nav ul .nav-right {
-  display: inherit;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .logo {
-  height: 120px;
+  position: absolute;
+  height: 110%;
   width: 120px;
   background: url("img/logo.jpg") no-repeat center center/cover;
   display: inline-block;
   margin-right: 25px;
 }
 
+.top-banner,
+.bottom-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
 .top-banner {
   margin: 10px 0;
+  font-size: 12px;
 }
 .top-banner p {
   display: inline-block;
-  font-size: 12px;
+}
+.top-banner p span {
+  text-transform: uppercase;
+}
+.top-banner .btn {
+  font-size: 11px;
 }
 
 .bottom-banner {
   margin: 15px 0;
+  align-self: center;
+  font-size: 15px;
+}
+
+.left-flex {
+  justify-self: start;
+}
+
+.right-flex {
+  justify-self: end;
 }
 
 .container {
   max-width: 1200px;
   padding: 0 2rem;
   margin: auto;
+}
+
+.btn {
+  padding: 3px 9px;
+}
+.btn-clear {
+  background: #282523;
+  color: #999;
+  border: #999 solid 1px;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=styles.css.map */
