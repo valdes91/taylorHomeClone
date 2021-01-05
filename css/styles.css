@@ -97,7 +97,7 @@ nav ul {
   position: absolute;
   height: 110%;
   width: 120px;
-  background: url("img/logo.jpg") no-repeat center center/cover;
+  background: url("../img/logo.jpg") no-repeat center center/cover;
   display: inline-block;
   margin-right: 25px;
 }
@@ -174,7 +174,7 @@ nav ul {
 
 .showcase {
   color: #fff;
-  background: url("img/hero1.jpg") no-repeat center center/cover;
+  background: url("../img/hero1.jpg") no-repeat center center/cover;
   height: 525px;
 }
 .showcase h1 {
