@@ -232,7 +232,7 @@ nav ul {
 }
 .row-horizontal {
   margin-top: 0;
-  width: 1200px;
+  width: 100%;
   flex-direction: row;
 }
 .row-bottom {
@@ -240,9 +240,10 @@ nav ul {
   margin-bottom: 0px;
 }
 .row-carousel {
-  width: 1200px;
+  width: 100%;
 }
 .row .card {
+  padding: 25px 0;
   text-align: center;
   margin: 0px 25px;
 }

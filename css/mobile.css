@@ -1,0 +1,85 @@
+.new-releases .carousel {
+  flex-direction: column;
+  width: 100%;
+}
+
+.row-horizontal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 768px) {
+  .header-grid {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .top-banner,
+.left-flex {
+    display: none;
+  }
+
+  .showcase .container .content {
+    width: 50%;
+  }
+
+  .featured-grid .cell-flex {
+    padding: 35px;
+  }
+}
+@media (max-width: 600px) {
+  h1,
+h2,
+h3 {
+    text-align: center;
+  }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .row-horizontal {
+    grid-template-columns: 1fr;
+  }
+
+  #header-container {
+    padding: 0 0.5rem;
+  }
+
+  .showcase .container .content {
+    width: 95%;
+    align-items: center;
+    text-align: center;
+  }
+  .showcase .container .content a {
+    padding: 10px 15px;
+  }
+
+  .about .container .content {
+    width: 100%;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .row p {
+    width: 100%;
+  }
+
+  .signup p {
+    width: 100%;
+  }
+
+  .footer .other .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .other a,
+.footer .other p {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
